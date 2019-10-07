@@ -1,0 +1,11 @@
+1.mkdir firstRepository
+2.cd firstRepository
+3.pwd	#查看当前目录
+4.git init #把目录变成一个git仓库。
+5.ls -ah #显示.git文件
+6.git add filename/git add . #添加指定文件到本地仓库/添加所有未提交文件。
+7.git commit -m 'comment'	#将文件提交到本地仓库。
+8.在github上创建一个名为firstRepository的仓库。
+9.git remote add origin git@git.com:zhitang8877s@163.com/firstRepository.git。#将本地仓库和远程仓库关联起来.
+10.git push -u origin master #将本地仓库的内容推到远程仓库中。第一次远程仓库和本地仓库关联时需要使用-u,后面就不小了。
+11.git remote -v #查看远程仓库的地址。
