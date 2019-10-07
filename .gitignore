@@ -1,0 +1,10 @@
+# 忽略maven文件 #
+target/
+# 忽略IDEA文件 #
+.idea/
+*.iml
+
+# 忽略eclipse文件 #
+.settings/
+.classpath
+.project
